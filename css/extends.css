@@ -1,0 +1,165 @@
+/* blue theme */
+
+.blue-theme .home-banner-area,
+.blue-theme .footer-area {
+  background: #A7F0F3;
+}
+.blue-theme .nav-menu a {
+  color: #000;
+}
+
+.blue-theme .highlight {
+  color: #F48C6B;
+}
+
+/* orange theme */
+
+.orange-theme .home-banner-area,
+.orange-theme .footer-area {
+  background: #FFC636;
+}
+.orange-theme .home-banner-content .subtitle {
+  color: #333333;
+}
+.orange-theme .highlight {
+  color: #927018;
+}
+
+/* index page */
+
+h1, h2 {
+  font-size: 36px;
+}
+
+@media(max-width: 992px) {
+  h2 br {
+    display: none;
+  }
+}
+
+.home-banner-content .subtitle {
+  color: #333333;
+}
+
+.feature-area {
+  margin-bottom: 250px;
+  padding-top: 0;
+}
+
+.home-banner-content p {
+  margin-bottom: 15px;
+}
+
+.download-button {
+  margin-top: 45px;
+}
+
+/* general */
+.home-banner-area .row {
+  max-height: 100vh;
+}
+
+body .founding-member {
+  margin-bottom: 6px;
+  line-height: 1;
+  color: #000;
+}
+.strong {
+  font-weight: bold;
+}
+
+.form-wrap form {
+  padding: 3px;
+  background: #fff;
+  border: 2px solid #000;
+}
+.form-wrap .form-control {
+  flex-basis: 0;
+  flex-grow: 1;
+  border: none;
+}
+.form-wrap .btn {
+  flex: 0 0 29.6%;
+  background: #F48C6B;
+  color: #fff;
+}
+.download-button {
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.download-button .founding-member-benefit,
+.download-button .app-device {
+  flex: 0 0 100%;
+  font-size: 12px;
+  color: #000;
+}
+.about-area {
+  padding: 0;
+}
+.about-area .row {
+  margin-top: 120px;
+  padding-top: 120px;
+}
+.section-gap {
+  padding: 50px 0;
+}
+.footer-area {
+  margin-top: 220px;
+}
+.footer-area .container .row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media(max-width: 992px) {
+  .row.reverse {
+    flex-direction: column-reverse;
+  }
+  .subtitle {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+  }
+  .home-banner-area .banner-img {
+    position: relative;
+  }
+  .home-banner-area .banner-img img {
+    position: absolute;
+    width: 88%;
+    top: -16rem;
+    right: 1rem;
+  }
+  .home-banner-content {
+    position: relative;
+  }
+}
+
+@media(max-width: 767px) {
+  .home-banner-area {
+    padding-bottom: 7rem;
+    overflow: hidden;
+  }
+  .home-banner-area .banner-img img {
+    position: static;
+  }
+  .home-banner-area .home-banner-content {
+    margin-bottom: 1rem;
+  }
+  .home-banner-content p {
+    font-size: 14px;
+  }
+  .home-banner-content .founding-member-benefit,
+  .home-banner-content .app-device {
+    font-size: 12px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+  .about-area .row {
+    margin-top: 0;
+    padding-top: 120px;
+  }
+  .footer-area {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
