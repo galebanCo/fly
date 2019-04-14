@@ -13,7 +13,7 @@ $BASE_THEME = BASE_THEME[array_rand(BASE_THEME)];
 	<!-- Author Meta -->
 	<meta name="author" content="codepixer">
 	<!-- Meta Description -->
-	<meta name="description" content="">
+	<meta name="description" content="Fly App Landing Page">
 	<!-- Meta Keyword -->
 	<meta name="keywords" content="">
 	<!-- meta character set -->
