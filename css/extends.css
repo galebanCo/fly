@@ -12,6 +12,9 @@
   color: #F48C6B;
 }
 
+.blue-theme .app-image-orange {
+  display: none;
+}
 /* orange theme */
 
 .orange-theme .home-banner-area,
@@ -23,6 +26,10 @@
 }
 .orange-theme .highlight {
   color: #927018;
+}
+
+.orange-theme .app-image-blue {
+  display: none;
 }
 
 /* index page */
