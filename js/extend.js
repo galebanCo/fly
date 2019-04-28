@@ -6,6 +6,8 @@ var randomValue = themeArray[Math.floor(Math.random() * themeArray.length)];
 
 console.log(randomValue);
 
-$('body').addClass(randomValue);
+// $('body').addClass(randomValue);
+
+
 
 });
